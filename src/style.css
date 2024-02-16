@@ -1,0 +1,23 @@
+body{
+    height: 100vh;
+    margin: 0; 
+    padding: 0;
+   }
+
+svg {
+    /*center the svg*/
+    display: block;
+    margin: 0 auto;
+}
+
+#globe-container {
+    top: 100px;
+}
+
+h1 {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5em;
+    margin-top: 50px;
+}

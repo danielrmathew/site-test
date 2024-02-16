@@ -52,8 +52,11 @@
 
 
 // Set up the projection
-const width = 800;
-const height = 600;
+const width = 900;
+const height = 700;
+let start;
+
+let rotateEnabled = true;
 
 const projection = d3.geoOrthographic()
     .scale(250)
@@ -82,6 +85,10 @@ const drag = d3.drag()
         projection.rotate([rotate[0] + event.dx * 0.5, rotate[1] - event.dy * 0.5]);
         globeGroup.selectAll("path.land")
             .attr("d", path);
+    
+    
+    rotateEnabled = false;
+    start = Date.now();
     });
 
 // Enable zoom behavior on the globe group
@@ -90,6 +97,15 @@ const zoom = d3.zoom()
     .on("zoom", function (event) {
         globeGroup.attr("transform", event.transform);
     });
+
+function rotateGlobe() {
+    if (rotateEnabled == false){return;}
+
+    const rotate = projection.rotate();
+    projection.rotate([rotate[0] + 0.1, rotate[1]]);
+    globeGroup.selectAll("path.land")
+        .attr("d", path);
+}
 
 // Load the world map data
 d3.json("countries-110m.json").then((world) => {
@@ -101,4 +117,13 @@ d3.json("countries-110m.json").then((world) => {
 
     svg.call(drag);
     svg.call(zoom);
+
+    d3.timer(rotateGlobe);
+
+    svg.on("click", function () {
+        if (rotateEnabled == false){rotateEnabled = true;}
+        else {rotateEnabled = false;}
+    });
 });
+
+
