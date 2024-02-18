@@ -12,6 +12,8 @@ svg {
 
 #globe-container {
     top: 100px;
+    width: 100%;
+    height: 100%;
 }
 
 h1 {
@@ -20,4 +22,15 @@ h1 {
     font-style: normal;
     font-size: 2.5em;
     margin-top: 50px;
+}
+
+.land {
+    fill: #036301; 
+    stroke: #041c15; 
+}
+
+.ocean {
+    fill: hsla(219, 79%, 47%, 0.741); 
+    opacity: 100%;
+    stroke: #15cbcb; 
 }

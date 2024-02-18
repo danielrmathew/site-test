@@ -52,15 +52,15 @@
 
 
 // Set up the projection
-const width = 900;
-const height = 700;
+const width = 2000;
+const height = 1000;
 let start;
 
 let rotateEnabled = true;
 
 const projection = d3.geoOrthographic()
     .scale(250)
-    .translate([width / 2, height / 2])
+    .translate([width /2, height / 2.5])
     .clipAngle(90);
 
 const path = d3.geoPath().projection(projection);
@@ -110,10 +110,18 @@ function rotateGlobe() {
 // Load the world map data
 d3.json("countries-110m.json").then((world) => {
     // Draw the world map in the globe group
+
+    globeGroup.append("path")
+        .datum({ type: "Sphere" })
+        .attr("class", "ocean")
+        .attr("d", path);
+        
     globeGroup.append("path")
         .datum(topojson.feature(world, world.objects.countries))
         .attr("class", "land")
         .attr("d", path);
+
+    
 
     svg.call(drag);
     svg.call(zoom);
