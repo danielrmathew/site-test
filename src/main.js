@@ -57,10 +57,6 @@ const zoom = d3.zoom()
         globeGroup.attr("transform", calculateZoomTranslation(event.transform));
 
         console.log("Zoom Scale:", event.transform.k);
-
-        // if (event.transform.k < thresholdScale) {
-        //     resetZoom();
-        // }
     });
     
 
@@ -77,7 +73,6 @@ function rotateGlobe() {
 // Load the world map data
 d3.json("countries-110m.json").then((world) => {
     // Draw the world map in the globe group
-
     globeGroup.append("path")
         .datum({ type: "Sphere" })
         .attr("class", "ocean")
