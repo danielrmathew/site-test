@@ -1,0 +1,1529 @@
+,Region/Country/Area,Name,Year,Value
+1,1,"Total, all countries or areas",2000,5.3
+2,1,"Total, all countries or areas",2005,15.6
+3,1,"Total, all countries or areas",2010,28.5
+4,1,"Total, all countries or areas",2015,40.0
+5,1,"Total, all countries or areas",2019,53.7
+6,1,"Total, all countries or areas",2020,59.6
+7,1,"Total, all countries or areas",2021,62.6
+8,15,Northern Africa,2000,0.6
+9,15,Northern Africa,2005,9.7
+10,15,Northern Africa,2010,23.2
+11,15,Northern Africa,2015,36.6
+12,15,Northern Africa,2019,56.0
+13,15,Northern Africa,2020,64.8
+14,15,Northern Africa,2021,70.6
+15,202,Sub-Saharan Africa,2000,0.9
+16,202,Sub-Saharan Africa,2005,2.0
+17,202,Sub-Saharan Africa,2010,6.0
+18,202,Sub-Saharan Africa,2015,16.0
+19,202,Sub-Saharan Africa,2019,27.4
+20,202,Sub-Saharan Africa,2020,31.5
+21,202,Sub-Saharan Africa,2021,34.9
+22,14,Eastern Africa,2000,0.6
+23,14,Eastern Africa,2005,1.2
+24,14,Eastern Africa,2010,3.2
+25,14,Eastern Africa,2015,10.5
+26,14,Eastern Africa,2019,15.3
+27,14,Eastern Africa,2020,17.2
+28,14,Eastern Africa,2021,20.7
+29,17,Middle Africa,2000,0.3
+30,17,Middle Africa,2005,0.7
+31,17,Middle Africa,2010,2.1
+32,17,Middle Africa,2015,10.0
+33,17,Middle Africa,2019,22.1
+34,17,Middle Africa,2020,27.2
+35,17,Middle Africa,2021,27.9
+36,18,Southern Africa,2000,4.9
+37,18,Southern Africa,2005,7.0
+38,18,Southern Africa,2010,22.0
+39,18,Southern Africa,2015,49.1
+40,18,Southern Africa,2019,67.4
+41,18,Southern Africa,2020,68.5
+42,18,Southern Africa,2021,70.6
+43,11,Western Africa,2000,0.1
+44,11,Western Africa,2005,2.5
+45,11,Western Africa,2010,7.7
+46,11,Western Africa,2015,18.9
+47,11,Western Africa,2019,36.3
+48,11,Western Africa,2020,42.9
+49,11,Western Africa,2021,48.0
+50,21,Northern America,2000,51.3
+51,21,Northern America,2005,68.3
+52,21,Northern America,2010,72.5
+53,21,Northern America,2015,76.1
+54,21,Northern America,2019,89.7
+55,21,Northern America,2020,90.8
+56,21,Northern America,2021,91.9
+57,419,Latin America & the Caribbean,2000,5.2
+58,419,Latin America & the Caribbean,2005,16.6
+59,419,Latin America & the Caribbean,2010,34.7
+60,419,Latin America & the Caribbean,2015,54.3
+61,419,Latin America & the Caribbean,2019,67.9
+62,419,Latin America & the Caribbean,2020,73.0
+63,419,Latin America & the Caribbean,2021,74.8
+64,29,Caribbean,2000,3.5
+65,29,Caribbean,2005,11.0
+66,29,Caribbean,2010,21.2
+67,29,Caribbean,2015,38.0
+68,29,Caribbean,2019,62.2
+69,29,Caribbean,2020,65.6
+70,29,Caribbean,2021,67.1
+71,143,Central Asia,2000,1.0
+72,143,Central Asia,2005,3.3
+73,143,Central Asia,2010,18.4
+74,143,Central Asia,2015,43.7
+75,143,Central Asia,2019,62.7
+76,143,Central Asia,2020,64.7
+77,143,Central Asia,2021,66.5
+78,30,Eastern Asia,2000,5.7
+79,30,Eastern Asia,2005,16.2
+80,30,Eastern Asia,2010,39.5
+81,30,Eastern Asia,2015,54.5
+82,30,Eastern Asia,2019,67.4
+83,30,Eastern Asia,2020,72.4
+84,30,Eastern Asia,2021,75.2
+85,62,South-central Asia,2000,0.6
+86,62,South-central Asia,2005,2.8
+87,62,South-central Asia,2010,7.9
+88,62,South-central Asia,2015,16.5
+89,62,South-central Asia,2019,32.4
+90,62,South-central Asia,2020,43.0
+91,62,South-central Asia,2021,46.0
+92,35,South-eastern Asia,2000,2.6
+93,35,South-eastern Asia,2005,8.7
+94,35,South-eastern Asia,2010,18.9
+95,35,South-eastern Asia,2015,31.6
+96,35,South-eastern Asia,2019,52.9
+97,35,South-eastern Asia,2020,58.7
+98,35,South-eastern Asia,2021,65.2
+99,34,Southern Asia,2000,0.6
+100,34,Southern Asia,2005,2.8
+101,34,Southern Asia,2010,7.5
+102,34,Southern Asia,2015,15.5
+103,34,Southern Asia,2019,31.3
+104,34,Southern Asia,2020,42.2
+105,34,Southern Asia,2021,45.2
+106,145,Western Asia,2000,3.5
+107,145,Western Asia,2005,11.0
+108,145,Western Asia,2010,32.4
+109,145,Western Asia,2015,50.0
+110,145,Western Asia,2019,65.6
+111,145,Western Asia,2020,69.1
+112,145,Western Asia,2021,71.9
+113,150,Europe,2005,39.7
+114,150,Europe,2010,62.5
+115,150,Europe,2015,74.1
+116,150,Europe,2019,82.8
+117,150,Europe,2020,85.1
+118,150,Europe,2021,87.6
+119,9,Oceania,2000,33.6
+120,9,Oceania,2005,47.1
+121,9,Oceania,2010,56.9
+122,9,Oceania,2015,64.3
+123,9,Oceania,2019,74.3
+124,9,Oceania,2020,78.3
+125,9,Oceania,2021,79.7
+126,53,Australia and New Zealand,2000,46.8
+127,53,Australia and New Zealand,2005,63.0
+128,53,Australia and New Zealand,2010,76.7
+129,53,Australia and New Zealand,2015,84.7
+130,53,Australia and New Zealand,2019,93.0
+131,53,Australia and New Zealand,2020,95.8
+132,53,Australia and New Zealand,2021,96.2
+133,57,Micronesia,2000,3.7
+134,57,Micronesia,2005,11.9
+135,57,Micronesia,2010,20.0
+136,57,Micronesia,2015,31.5
+137,57,Micronesia,2019,39.9
+138,57,Micronesia,2020,40.1
+139,57,Micronesia,2021,40.4
+140,4,Afghanistan,2005,1.2
+141,4,Afghanistan,2010,4.0
+142,4,Afghanistan,2015,8.3
+143,4,Afghanistan,2019,17.6
+144,4,Afghanistan,2020,18.4
+145,8,Albania,2000,0.1
+146,8,Albania,2005,6.0
+147,8,Albania,2010,45.0
+148,8,Albania,2015,56.9
+149,8,Albania,2019,68.6
+150,8,Albania,2020,72.2
+151,8,Albania,2021,79.3
+152,12,Algeria,2000,0.5
+153,12,Algeria,2005,5.8
+154,12,Algeria,2010,12.5
+155,12,Algeria,2015,38.2
+156,12,Algeria,2019,59.0
+157,12,Algeria,2020,64.0
+158,12,Algeria,2021,70.8
+159,20,Andorra,2000,10.5
+160,20,Andorra,2005,37.6
+161,20,Andorra,2010,81.0
+162,20,Andorra,2015,87.9
+163,20,Andorra,2019,90.7
+164,20,Andorra,2020,93.2
+165,20,Andorra,2021,93.9
+166,24,Angola,2000,0.1
+167,24,Angola,2005,1.1
+168,24,Angola,2010,2.8
+169,24,Angola,2015,22.0
+170,24,Angola,2019,32.1
+171,24,Angola,2020,32.6
+172,24,Angola,2021,32.6
+173,660,Anguilla,2000,22.4
+174,660,Anguilla,2005,29.0
+175,660,Anguilla,2010,49.6
+176,660,Anguilla,2015,76.0
+177,28,Antigua and Barbuda,2000,6.5
+178,28,Antigua and Barbuda,2005,27.0
+179,28,Antigua and Barbuda,2010,47.0
+180,28,Antigua and Barbuda,2015,70.0
+181,28,Antigua and Barbuda,2019,95.7
+182,28,Antigua and Barbuda,2020,95.7
+183,28,Antigua and Barbuda,2021,95.7
+184,32,Argentina,2000,7.0
+185,32,Argentina,2005,17.7
+186,32,Argentina,2010,45.0
+187,32,Argentina,2015,68.0
+188,32,Argentina,2019,79.9
+189,32,Argentina,2020,85.5
+190,32,Argentina,2021,87.2
+191,51,Armenia,2000,1.3
+192,51,Armenia,2005,5.3
+193,51,Armenia,2010,25.0
+194,51,Armenia,2015,59.1
+195,51,Armenia,2019,66.5
+196,51,Armenia,2020,76.5
+197,51,Armenia,2021,78.6
+198,533,Aruba,2000,15.4
+199,533,Aruba,2005,25.4
+200,533,Aruba,2010,62.0
+201,533,Aruba,2015,88.7
+202,36,Australia,2000,46.8
+203,36,Australia,2005,63.0
+204,36,Australia,2010,76.0
+205,36,Australia,2015,84.6
+206,36,Australia,2019,93.6
+207,36,Australia,2020,96.4
+208,36,Australia,2021,96.2
+209,40,Austria,2000,33.7
+210,40,Austria,2005,58.0
+211,40,Austria,2010,75.2
+212,40,Austria,2015,83.9
+213,40,Austria,2019,87.8
+214,40,Austria,2020,87.5
+215,40,Austria,2021,92.5
+216,31,Azerbaijan,2000,0.1
+217,31,Azerbaijan,2005,8.0
+218,31,Azerbaijan,2010,46.0
+219,31,Azerbaijan,2015,77.0
+220,31,Azerbaijan,2019,81.1
+221,31,Azerbaijan,2020,84.6
+222,31,Azerbaijan,2021,86.0
+223,44,Bahamas,2000,8.0
+224,44,Bahamas,2005,25.0
+225,44,Bahamas,2010,43.0
+226,44,Bahamas,2015,78.0
+227,44,Bahamas,2019,90.7
+228,44,Bahamas,2020,92.5
+229,44,Bahamas,2021,94.3
+230,48,Bahrain,2000,6.2
+231,48,Bahrain,2005,21.3
+232,48,Bahrain,2010,55.0
+233,48,Bahrain,2015,93.5
+234,48,Bahrain,2019,99.7
+235,48,Bahrain,2020,99.7
+236,48,Bahrain,2021,100.0
+237,50,Bangladesh,2000,0.1
+238,50,Bangladesh,2005,0.2
+239,50,Bangladesh,2010,3.7
+240,50,Bangladesh,2015,12.9
+241,50,Bangladesh,2019,27.8
+242,50,Bangladesh,2020,32.9
+243,50,Bangladesh,2021,38.9
+244,52,Barbados,2000,4.0
+245,52,Barbados,2005,52.5
+246,52,Barbados,2010,65.1
+247,52,Barbados,2015,76.1
+248,52,Barbados,2019,83.2
+249,52,Barbados,2020,82.5
+250,52,Barbados,2021,85.8
+251,112,Belarus,2000,1.9
+252,112,Belarus,2010,31.8
+253,112,Belarus,2015,62.2
+254,112,Belarus,2019,82.8
+255,112,Belarus,2020,85.1
+256,112,Belarus,2021,86.9
+257,56,Belgium,2000,29.4
+258,56,Belgium,2005,55.8
+259,56,Belgium,2010,75.0
+260,56,Belgium,2015,85.1
+261,56,Belgium,2019,90.3
+262,56,Belgium,2020,91.5
+263,56,Belgium,2021,92.8
+264,84,Belize,2000,6.0
+265,84,Belize,2005,17.0
+266,84,Belize,2010,28.2
+267,84,Belize,2015,41.6
+268,84,Belize,2019,57.1
+269,84,Belize,2020,59.5
+270,84,Belize,2021,62.0
+271,204,Benin,2000,0.2
+272,204,Benin,2005,1.3
+273,204,Benin,2010,3.1
+274,204,Benin,2015,11.3
+275,204,Benin,2019,22.4
+276,204,Benin,2020,28.2
+277,204,Benin,2021,34.0
+278,60,Bermuda,2000,42.9
+279,60,Bermuda,2005,65.4
+280,60,Bermuda,2010,84.2
+281,60,Bermuda,2015,98.3
+282,64,Bhutan,2000,0.4
+283,64,Bhutan,2005,3.8
+284,64,Bhutan,2010,13.6
+285,64,Bhutan,2015,39.8
+286,64,Bhutan,2019,74.2
+287,64,Bhutan,2020,79.9
+288,64,Bhutan,2021,85.6
+289,68,Bolivia,2000,1.4
+290,68,Bolivia,2005,5.2
+291,68,Bolivia,2010,22.4
+292,68,Bolivia,2015,37.5
+293,68,Bolivia,2019,47.5
+294,68,Bolivia,2020,59.9
+295,68,Bolivia,2021,66.0
+296,70,Bosnia and Herz.,2000,1.1
+297,70,Bosnia and Herz.,2005,21.3
+298,70,Bosnia and Herz.,2010,42.8
+299,70,Bosnia and Herz.,2015,52.6
+300,70,Bosnia and Herz.,2019,69.9
+301,70,Bosnia and Herz.,2020,73.2
+302,70,Bosnia and Herz.,2021,75.7
+303,72,Botswana,2000,2.9
+304,72,Botswana,2005,3.3
+305,72,Botswana,2010,6.0
+306,72,Botswana,2015,37.3
+307,72,Botswana,2019,64.8
+308,72,Botswana,2020,72.7
+309,72,Botswana,2021,73.5
+310,76,Brazil,2000,2.9
+311,76,Brazil,2005,21.0
+312,76,Brazil,2010,40.7
+313,76,Brazil,2015,58.3
+314,76,Brazil,2019,73.9
+315,76,Brazil,2020,81.3
+316,76,Brazil,2021,80.7
+317,92,British Virgin Islands,2010,37.0
+318,96,Brunei,2000,9.0
+319,96,Brunei,2005,36.5
+320,96,Brunei,2010,53.0
+321,96,Brunei,2015,71.2
+322,96,Brunei,2019,95.0
+323,96,Brunei,2020,96.1
+324,96,Brunei,2021,98.1
+325,100,Bulgaria,2000,5.4
+326,100,Bulgaria,2005,20.0
+327,100,Bulgaria,2010,46.2
+328,100,Bulgaria,2015,56.7
+329,100,Bulgaria,2019,67.9
+330,100,Bulgaria,2020,70.2
+331,100,Bulgaria,2021,75.3
+332,854,Burkina Faso,2000,0.1
+333,854,Burkina Faso,2005,0.5
+334,854,Burkina Faso,2010,2.4
+335,854,Burkina Faso,2015,6.6
+336,854,Burkina Faso,2019,9.3
+337,854,Burkina Faso,2020,13.9
+338,854,Burkina Faso,2021,21.6
+339,108,Burundi,2000,0.1
+340,108,Burundi,2005,0.5
+341,108,Burundi,2010,1.0
+342,108,Burundi,2015,2.0
+343,108,Burundi,2019,2.7
+344,108,Burundi,2020,3.8
+345,108,Burundi,2021,5.8
+346,132,Cabo Verde,2000,1.8
+347,132,Cabo Verde,2005,6.1
+348,132,Cabo Verde,2010,30.0
+349,132,Cabo Verde,2015,42.7
+350,132,Cabo Verde,2019,61.9
+351,132,Cabo Verde,2020,63.2
+352,132,Cabo Verde,2021,69.8
+353,116,Cambodia,2000,0.0
+354,116,Cambodia,2005,0.3
+355,116,Cambodia,2010,1.3
+356,116,Cambodia,2015,18.0
+357,116,Cambodia,2019,52.3
+358,116,Cambodia,2020,53.7
+359,116,Cambodia,2021,60.2
+360,120,Cameroon,2000,0.3
+361,120,Cameroon,2005,1.4
+362,120,Cameroon,2010,4.3
+363,120,Cameroon,2015,18.3
+364,120,Cameroon,2019,36.5
+365,120,Cameroon,2020,45.5
+366,120,Cameroon,2021,45.6
+367,124,Canada,2000,51.3
+368,124,Canada,2005,71.7
+369,124,Canada,2010,80.3
+370,124,Canada,2015,90.0
+371,124,Canada,2019,91.9
+372,124,Canada,2020,92.3
+373,124,Canada,2021,92.8
+374,136,Cayman Islands,2005,38.0
+375,136,Cayman Islands,2010,66.0
+376,136,Cayman Islands,2015,77.0
+377,140,Central African Rep.,2000,0.1
+378,140,Central African Rep.,2005,0.3
+379,140,Central African Rep.,2010,2.0
+380,140,Central African Rep.,2015,2.9
+381,140,Central African Rep.,2019,7.5
+382,140,Central African Rep.,2020,8.6
+383,140,Central African Rep.,2021,10.6
+384,148,Chad,2000,0.0
+385,148,Chad,2005,0.4
+386,148,Chad,2010,1.7
+387,148,Chad,2015,3.5
+388,148,Chad,2019,8.4
+389,148,Chad,2020,11.7
+390,148,Chad,2021,17.9
+391,152,Chile,2000,16.6
+392,152,Chile,2005,31.2
+393,152,Chile,2010,45.0
+394,152,Chile,2015,76.6
+395,152,Chile,2019,85.0
+396,152,Chile,2020,86.4
+397,152,Chile,2021,90.2
+398,156,China,2000,1.8
+399,156,China,2005,8.5
+400,156,China,2010,34.3
+401,156,China,2015,50.3
+402,156,China,2019,64.1
+403,156,China,2020,70.1
+404,156,China,2021,73.1
+405,344,"China, Hong Kong SAR",2000,27.8
+406,344,"China, Hong Kong SAR",2005,56.9
+407,344,"China, Hong Kong SAR",2010,72.0
+408,344,"China, Hong Kong SAR",2015,84.9
+409,344,"China, Hong Kong SAR",2019,91.7
+410,344,"China, Hong Kong SAR",2020,92.4
+411,344,"China, Hong Kong SAR",2021,93.1
+412,446,"China, Macao SAR",2000,13.6
+413,446,"China, Macao SAR",2005,34.9
+414,446,"China, Macao SAR",2010,55.2
+415,446,"China, Macao SAR",2015,77.6
+416,446,"China, Macao SAR",2019,86.5
+417,446,"China, Macao SAR",2020,88.3
+418,446,"China, Macao SAR",2021,88.5
+419,170,Colombia,2000,2.2
+420,170,Colombia,2005,11.0
+421,170,Colombia,2010,36.5
+422,170,Colombia,2015,55.9
+423,170,Colombia,2019,65.0
+424,170,Colombia,2020,70.9
+425,170,Colombia,2021,73.0
+426,174,Comoros,2000,0.3
+427,174,Comoros,2005,2.0
+428,174,Comoros,2010,5.1
+429,174,Comoros,2015,7.5
+430,174,Comoros,2019,16.4
+431,174,Comoros,2020,21.2
+432,174,Comoros,2021,27.3
+433,178,Congo,2000,0.0
+434,178,Congo,2005,1.5
+435,178,Congo,2010,5.0
+436,178,Congo,2015,7.6
+437,184,Cook Islands,2000,15.7
+438,184,Cook Islands,2005,26.2
+439,184,Cook Islands,2010,35.7
+440,184,Cook Islands,2015,51.0
+441,188,Costa Rica,2000,5.8
+442,188,Costa Rica,2005,22.1
+443,188,Costa Rica,2010,36.5
+444,188,Costa Rica,2015,59.8
+445,188,Costa Rica,2019,81.2
+446,188,Costa Rica,2020,80.5
+447,188,Costa Rica,2021,82.8
+448,384,Côte d'Ivoire,2000,0.2
+449,384,Côte d'Ivoire,2005,1.0
+450,384,Côte d'Ivoire,2010,2.7
+451,384,Côte d'Ivoire,2015,16.7
+452,384,Côte d'Ivoire,2019,36.3
+453,384,Côte d'Ivoire,2020,41.4
+454,384,Côte d'Ivoire,2021,45.4
+455,191,Croatia,2000,6.6
+456,191,Croatia,2005,33.1
+457,191,Croatia,2010,56.6
+458,191,Croatia,2015,69.8
+459,191,Croatia,2019,79.1
+460,191,Croatia,2020,78.3
+461,191,Croatia,2021,81.3
+462,192,Cuba,2000,0.5
+463,192,Cuba,2005,9.7
+464,192,Cuba,2010,15.9
+465,192,Cuba,2015,37.3
+466,192,Cuba,2019,68.0
+467,192,Cuba,2020,71.1
+468,192,Cuba,2021,71.1
+469,196,Cyprus,2000,15.3
+470,196,Cyprus,2005,32.8
+471,196,Cyprus,2010,53.0
+472,196,Cyprus,2015,71.7
+473,196,Cyprus,2019,86.1
+474,196,Cyprus,2020,90.8
+475,196,Cyprus,2021,90.8
+476,203,Czechia,2000,9.8
+477,203,Czechia,2005,35.3
+478,203,Czechia,2010,68.8
+479,203,Czechia,2015,75.7
+480,203,Czechia,2019,80.9
+481,203,Czechia,2020,81.3
+482,203,Czechia,2021,82.7
+483,408,North Korea,2000,0.0
+484,408,North Korea,2005,0.0
+485,408,North Korea,2010,0.0
+486,180,Dem. Rep. Congo,2000,0.0
+487,180,Dem. Rep. Congo,2005,0.2
+488,180,Dem. Rep. Congo,2010,0.7
+489,180,Dem. Rep. Congo,2015,3.8
+490,180,Dem. Rep. Congo,2019,16.5
+491,180,Dem. Rep. Congo,2020,22.9
+492,180,Dem. Rep. Congo,2021,22.9
+493,208,Denmark,2000,39.2
+494,208,Denmark,2005,82.7
+495,208,Denmark,2010,88.7
+496,208,Denmark,2015,96.3
+497,208,Denmark,2019,98.0
+498,208,Denmark,2020,96.5
+499,208,Denmark,2021,98.9
+500,262,Djibouti,2000,0.2
+501,262,Djibouti,2005,1.0
+502,262,Djibouti,2010,6.5
+503,262,Djibouti,2015,22.9
+504,262,Djibouti,2019,59.3
+505,262,Djibouti,2020,61.3
+506,262,Djibouti,2021,68.9
+507,212,Dominica,2000,8.8
+508,212,Dominica,2005,38.5
+509,212,Dominica,2010,47.5
+510,212,Dominica,2015,65.0
+511,212,Dominica,2019,73.4
+512,212,Dominica,2020,77.1
+513,212,Dominica,2021,80.9
+514,214,Dominican Rep.,2000,3.7
+515,214,Dominican Rep.,2005,11.5
+516,214,Dominican Rep.,2010,31.4
+517,214,Dominican Rep.,2015,54.2
+518,214,Dominican Rep.,2019,79.7
+519,214,Dominican Rep.,2020,82.2
+520,214,Dominican Rep.,2021,85.2
+521,218,Ecuador,2000,1.5
+522,218,Ecuador,2005,6.0
+523,218,Ecuador,2010,29.0
+524,218,Ecuador,2015,48.9
+525,218,Ecuador,2019,59.2
+526,218,Ecuador,2020,70.7
+527,218,Ecuador,2021,76.2
+528,818,Egypt,2000,0.6
+529,818,Egypt,2005,12.8
+530,818,Egypt,2010,21.6
+531,818,Egypt,2015,37.8
+532,818,Egypt,2019,57.3
+533,818,Egypt,2020,71.9
+534,818,Egypt,2021,72.1
+535,222,El Salvador,2000,1.2
+536,222,El Salvador,2005,4.2
+537,222,El Salvador,2010,15.9
+538,222,El Salvador,2015,26.8
+539,222,El Salvador,2019,50.5
+540,222,El Salvador,2020,54.6
+541,222,El Salvador,2021,62.9
+542,226,Eq. Guinea,2000,0.1
+543,226,Eq. Guinea,2005,1.1
+544,226,Eq. Guinea,2010,6.0
+545,226,Eq. Guinea,2015,21.3
+546,226,Eq. Guinea,2019,49.1
+547,226,Eq. Guinea,2020,53.8
+548,226,Eq. Guinea,2021,53.9
+549,232,Eritrea,2000,0.1
+550,232,Eritrea,2010,0.6
+551,232,Eritrea,2015,1.1
+552,232,Eritrea,2019,8.8
+553,232,Eritrea,2020,14.2
+554,232,Eritrea,2021,21.7
+555,233,Estonia,2000,28.6
+556,233,Estonia,2005,61.5
+557,233,Estonia,2010,74.1
+558,233,Estonia,2015,88.4
+559,233,Estonia,2019,90.2
+560,233,Estonia,2020,89.1
+561,233,Estonia,2021,91.0
+562,748,eSwatini,2000,0.9
+563,748,eSwatini,2005,3.7
+564,748,eSwatini,2010,11.0
+565,748,eSwatini,2015,25.6
+566,748,eSwatini,2019,54.0
+567,748,eSwatini,2020,56.4
+568,748,eSwatini,2021,58.9
+569,231,Ethiopia,2000,0.0
+570,231,Ethiopia,2005,0.2
+571,231,Ethiopia,2010,0.8
+572,231,Ethiopia,2015,13.9
+573,231,Ethiopia,2019,16.2
+574,231,Ethiopia,2020,16.4
+575,231,Ethiopia,2021,16.7
+576,238,Falkland Is.,2000,58.6
+577,238,Falkland Is.,2005,84.0
+578,238,Falkland Is.,2010,95.8
+579,238,Falkland Is.,2015,98.3
+580,234,Faroe Islands,2000,32.9
+581,234,Faroe Islands,2005,67.9
+582,234,Faroe Islands,2010,75.2
+583,234,Faroe Islands,2015,94.2
+584,242,Fiji,2000,1.5
+585,242,Fiji,2005,8.5
+586,242,Fiji,2010,20.0
+587,242,Fiji,2015,42.5
+588,242,Fiji,2019,77.2
+589,242,Fiji,2020,84.9
+590,242,Fiji,2021,87.7
+591,246,Finland,2000,37.2
+592,246,Finland,2005,74.5
+593,246,Finland,2010,86.9
+594,246,Finland,2015,86.4
+595,246,Finland,2019,89.6
+596,246,Finland,2020,92.2
+597,246,Finland,2021,92.8
+598,250,France,2000,14.3
+599,250,France,2005,42.9
+600,250,France,2010,77.3
+601,250,France,2015,78.0
+602,250,France,2019,83.3
+603,250,France,2020,84.7
+604,250,France,2021,86.1
+605,254,French Guiana,2000,9.7
+606,254,French Guiana,2005,20.8
+607,258,French Polynesia,2000,6.4
+608,258,French Polynesia,2005,21.5
+609,258,French Polynesia,2010,49.0
+610,258,French Polynesia,2015,64.6
+611,266,Gabon,2000,1.2
+612,266,Gabon,2005,4.9
+613,266,Gabon,2010,13.0
+614,266,Gabon,2015,45.8
+615,266,Gabon,2019,68.7
+616,266,Gabon,2020,70.8
+617,266,Gabon,2021,71.7
+618,270,Gambia,2000,0.9
+619,270,Gambia,2005,3.8
+620,270,Gambia,2010,9.2
+621,270,Gambia,2015,17.6
+622,270,Gambia,2019,28.8
+623,270,Gambia,2020,31.6
+624,270,Gambia,2021,33.0
+625,268,Georgia,2000,0.5
+626,268,Georgia,2005,6.1
+627,268,Georgia,2010,26.9
+628,268,Georgia,2015,47.6
+629,268,Georgia,2019,68.8
+630,268,Georgia,2020,72.5
+631,268,Georgia,2021,76.4
+632,276,Germany,2000,30.2
+633,276,Germany,2005,68.7
+634,276,Germany,2010,82.0
+635,276,Germany,2015,87.6
+636,276,Germany,2019,88.1
+637,276,Germany,2020,89.8
+638,276,Germany,2021,91.4
+639,288,Ghana,2000,0.2
+640,288,Ghana,2005,1.8
+641,288,Ghana,2010,7.8
+642,288,Ghana,2015,23.0
+643,288,Ghana,2019,45.0
+644,288,Ghana,2020,56.7
+645,288,Ghana,2021,68.2
+646,292,Gibraltar,2000,19.1
+647,292,Gibraltar,2005,39.1
+648,292,Gibraltar,2010,65.0
+649,300,Greece,2000,9.1
+650,300,Greece,2005,24.0
+651,300,Greece,2010,44.4
+652,300,Greece,2015,66.8
+653,300,Greece,2019,75.7
+654,300,Greece,2020,78.1
+655,300,Greece,2021,78.5
+656,304,Greenland,2000,31.7
+657,304,Greenland,2005,57.7
+658,304,Greenland,2010,63.0
+659,304,Greenland,2015,67.6
+660,308,Grenada,2000,4.1
+661,308,Grenada,2005,20.5
+662,308,Grenada,2010,27.0
+663,308,Grenada,2015,52.5
+664,308,Grenada,2019,69.6
+665,308,Grenada,2020,74.7
+666,308,Grenada,2021,77.8
+667,312,Guadeloupe,2000,5.8
+668,312,Guadeloupe,2005,18.7
+669,316,Guam,2000,16.1
+670,316,Guam,2005,38.6
+671,316,Guam,2010,54.0
+672,316,Guam,2015,73.1
+673,320,Guatemala,2000,0.7
+674,320,Guatemala,2005,5.7
+675,320,Guatemala,2010,10.5
+676,320,Guatemala,2015,28.8
+677,320,Guatemala,2019,44.4
+678,320,Guatemala,2020,47.5
+679,320,Guatemala,2021,50.8
+680,831,Guernsey,2000,31.9
+681,831,Guernsey,2005,73.6
+682,324,Guinea,2000,0.1
+683,324,Guinea,2005,0.5
+684,324,Guinea,2010,1.0
+685,324,Guinea,2015,9.2
+686,324,Guinea,2019,23.4
+687,324,Guinea,2020,28.8
+688,324,Guinea,2021,34.7
+689,624,Guinea-Bissau,2000,0.2
+690,624,Guinea-Bissau,2005,1.9
+691,624,Guinea-Bissau,2010,2.5
+692,624,Guinea-Bissau,2015,6.1
+693,624,Guinea-Bissau,2019,22.9
+694,624,Guinea-Bissau,2020,27.9
+695,624,Guinea-Bissau,2021,35.2
+696,328,Guyana,2000,0.6
+697,328,Guyana,2005,5.7
+698,328,Guyana,2010,29.9
+699,328,Guyana,2015,34.0
+700,328,Guyana,2019,78.6
+701,328,Guyana,2020,81.8
+702,328,Guyana,2021,84.8
+703,332,Haiti,2000,0.2
+704,332,Haiti,2005,6.4
+705,332,Haiti,2010,8.4
+706,332,Haiti,2015,14.2
+707,332,Haiti,2019,32.5
+708,332,Haiti,2020,36.4
+709,332,Haiti,2021,38.9
+710,340,Honduras,2000,1.2
+711,340,Honduras,2005,6.5
+712,340,Honduras,2010,11.1
+713,340,Honduras,2015,27.1
+714,340,Honduras,2019,39.4
+715,340,Honduras,2020,43.5
+716,340,Honduras,2021,48.1
+717,348,Hungary,2000,7.0
+718,348,Hungary,2005,39.0
+719,348,Hungary,2010,65.0
+720,348,Hungary,2015,72.8
+721,348,Hungary,2019,80.4
+722,348,Hungary,2020,84.8
+723,348,Hungary,2021,88.6
+724,352,Iceland,2000,44.5
+725,352,Iceland,2005,87.0
+726,352,Iceland,2010,93.4
+727,352,Iceland,2015,98.2
+728,352,Iceland,2019,99.5
+729,352,Iceland,2020,99.5
+730,352,Iceland,2021,99.7
+731,356,India,2000,0.5
+732,356,India,2005,2.4
+733,356,India,2010,7.5
+734,356,India,2015,14.9
+735,356,India,2019,29.5
+736,356,India,2020,43.4
+737,356,India,2021,46.3
+738,360,Indonesia,2000,0.9
+739,360,Indonesia,2005,3.6
+740,360,Indonesia,2010,10.9
+741,360,Indonesia,2015,22.1
+742,360,Indonesia,2019,47.7
+743,360,Indonesia,2020,53.7
+744,360,Indonesia,2021,62.1
+745,364,Iran,2000,0.9
+746,364,Iran,2005,8.1
+747,364,Iran,2010,15.9
+748,364,Iran,2015,45.3
+749,364,Iran,2019,72.5
+750,364,Iran,2020,75.6
+751,364,Iran,2021,78.6
+752,368,Iraq,2005,0.9
+753,368,Iraq,2010,2.5
+754,368,Iraq,2015,15.2
+755,368,Iraq,2019,44.3
+756,368,Iraq,2020,45.8
+757,368,Iraq,2021,48.9
+758,372,Ireland,2000,17.9
+759,372,Ireland,2005,41.6
+760,372,Ireland,2010,69.9
+761,372,Ireland,2015,83.5
+762,372,Ireland,2019,87.0
+763,372,Ireland,2020,92.0
+764,372,Ireland,2021,95.2
+765,376,Israel,2000,20.9
+766,376,Israel,2005,25.2
+767,376,Israel,2010,67.5
+768,376,Israel,2015,77.4
+769,376,Israel,2019,86.8
+770,376,Israel,2020,90.1
+771,376,Israel,2021,90.3
+772,380,Italy,2000,23.1
+773,380,Italy,2005,35.0
+774,380,Italy,2010,53.7
+775,380,Italy,2015,58.1
+776,380,Italy,2019,67.9
+777,380,Italy,2020,70.5
+778,380,Italy,2021,74.9
+779,388,Jamaica,2000,3.1
+780,388,Jamaica,2005,12.8
+781,388,Jamaica,2010,27.7
+782,388,Jamaica,2015,42.2
+783,388,Jamaica,2019,70.8
+784,388,Jamaica,2020,79.4
+785,388,Jamaica,2021,82.4
+786,392,Japan,2000,30.0
+787,392,Japan,2005,66.9
+788,392,Japan,2010,78.2
+789,392,Japan,2015,91.1
+790,392,Japan,2019,92.7
+791,392,Japan,2020,90.2
+792,392,Japan,2021,82.9
+793,832,Jersey,2000,9.2
+794,832,Jersey,2005,31.3
+795,400,Jordan,2000,2.6
+796,400,Jordan,2005,12.9
+797,400,Jordan,2010,27.2
+798,400,Jordan,2015,54.2
+799,400,Jordan,2019,70.1
+800,400,Jordan,2020,75.4
+801,400,Jordan,2021,82.8
+802,398,Kazakhstan,2000,0.7
+803,398,Kazakhstan,2005,3.0
+804,398,Kazakhstan,2010,31.6
+805,398,Kazakhstan,2015,70.8
+806,398,Kazakhstan,2019,81.9
+807,398,Kazakhstan,2020,85.9
+808,398,Kazakhstan,2021,90.9
+809,404,Kenya,2000,0.3
+810,404,Kenya,2005,3.1
+811,404,Kenya,2010,7.2
+812,404,Kenya,2015,16.6
+813,404,Kenya,2019,22.7
+814,404,Kenya,2020,25.5
+815,404,Kenya,2021,28.8
+816,296,Kiribati,2000,1.8
+817,296,Kiribati,2005,4.0
+818,296,Kiribati,2010,9.1
+819,296,Kiribati,2015,14.9
+820,296,Kiribati,2019,43.0
+821,296,Kiribati,2020,45.1
+822,296,Kiribati,2021,53.6
+823,414,Kuwait,2000,6.7
+824,414,Kuwait,2005,25.9
+825,414,Kuwait,2010,61.4
+826,414,Kuwait,2015,82.0
+827,414,Kuwait,2019,99.5
+828,414,Kuwait,2020,99.1
+829,414,Kuwait,2021,99.7
+830,417,Kyrgyzstan,2000,1.0
+831,417,Kyrgyzstan,2005,10.5
+832,417,Kyrgyzstan,2010,16.3
+833,417,Kyrgyzstan,2015,30.2
+834,417,Kyrgyzstan,2019,64.1
+835,417,Kyrgyzstan,2020,72.0
+836,417,Kyrgyzstan,2021,77.9
+837,418,Laos,2000,0.1
+838,418,Laos,2005,0.9
+839,418,Laos,2010,7.0
+840,418,Laos,2015,18.2
+841,418,Laos,2019,47.0
+842,418,Laos,2020,54.0
+843,418,Laos,2021,62.0
+844,428,Latvia,2000,6.3
+845,428,Latvia,2005,46.0
+846,428,Latvia,2010,68.4
+847,428,Latvia,2015,79.2
+848,428,Latvia,2019,86.1
+849,428,Latvia,2020,88.9
+850,428,Latvia,2021,91.2
+851,422,Lebanon,2000,8.0
+852,422,Lebanon,2005,10.1
+853,422,Lebanon,2010,43.7
+854,422,Lebanon,2015,74.0
+855,422,Lebanon,2019,79.8
+856,422,Lebanon,2020,83.1
+857,422,Lebanon,2021,86.6
+858,426,Lesotho,2000,0.2
+859,426,Lesotho,2005,2.6
+860,426,Lesotho,2010,3.9
+861,426,Lesotho,2015,25.0
+862,426,Lesotho,2019,42.3
+863,426,Lesotho,2020,42.9
+864,426,Lesotho,2021,48.0
+865,430,Liberia,2000,0.0
+866,430,Liberia,2010,2.3
+867,430,Liberia,2015,10.0
+868,430,Liberia,2019,23.5
+869,430,Liberia,2020,28.0
+870,430,Liberia,2021,33.6
+871,434,Libya,2000,0.2
+872,434,Libya,2005,3.9
+873,434,Libya,2010,14.0
+874,438,Liechtenstein,2000,36.5
+875,438,Liechtenstein,2005,63.4
+876,438,Liechtenstein,2010,80.0
+877,438,Liechtenstein,2015,96.6
+878,438,Liechtenstein,2019,93.1
+879,438,Liechtenstein,2020,94.4
+880,438,Liechtenstein,2021,95.6
+881,440,Lithuania,2000,6.4
+882,440,Lithuania,2005,36.2
+883,440,Lithuania,2010,62.1
+884,440,Lithuania,2015,71.4
+885,440,Lithuania,2019,81.6
+886,440,Lithuania,2020,83.1
+887,440,Lithuania,2021,86.9
+888,442,Luxembourg,2000,22.9
+889,442,Luxembourg,2005,70.0
+890,442,Luxembourg,2010,90.6
+891,442,Luxembourg,2015,96.4
+892,442,Luxembourg,2019,97.1
+893,442,Luxembourg,2020,98.8
+894,442,Luxembourg,2021,98.7
+895,450,Madagascar,2000,0.2
+896,450,Madagascar,2005,0.6
+897,450,Madagascar,2010,1.7
+898,450,Madagascar,2015,4.2
+899,450,Madagascar,2019,11.8
+900,450,Madagascar,2020,13.7
+901,450,Madagascar,2021,19.7
+902,454,Malawi,2000,0.1
+903,454,Malawi,2005,0.4
+904,454,Malawi,2010,2.3
+905,454,Malawi,2015,6.0
+906,454,Malawi,2019,13.4
+907,454,Malawi,2020,18.9
+908,454,Malawi,2021,24.4
+909,458,Malaysia,2000,21.4
+910,458,Malaysia,2005,48.6
+911,458,Malaysia,2010,56.3
+912,458,Malaysia,2015,71.1
+913,458,Malaysia,2019,84.2
+914,458,Malaysia,2020,89.6
+915,458,Malaysia,2021,96.8
+916,462,Maldives,2000,2.2
+917,462,Maldives,2005,6.9
+918,462,Maldives,2010,26.5
+919,462,Maldives,2015,54.5
+920,462,Maldives,2019,77.5
+921,462,Maldives,2020,77.6
+922,462,Maldives,2021,85.8
+923,466,Mali,2000,0.1
+924,466,Mali,2005,0.5
+925,466,Mali,2010,2.0
+926,466,Mali,2015,10.3
+927,466,Mali,2019,22.3
+928,466,Mali,2020,27.9
+929,466,Mali,2021,34.5
+930,470,Malta,2000,13.1
+931,470,Malta,2005,41.2
+932,470,Malta,2010,63.0
+933,470,Malta,2015,76.0
+934,470,Malta,2019,85.8
+935,470,Malta,2020,86.9
+936,470,Malta,2021,87.5
+937,584,Marshall Islands,2000,1.5
+938,584,Marshall Islands,2005,3.9
+939,584,Marshall Islands,2010,7.0
+940,584,Marshall Islands,2015,19.3
+941,474,Martinique,2000,7.8
+942,474,Martinique,2005,32.7
+943,478,Mauritania,2000,0.2
+944,478,Mauritania,2005,0.7
+945,478,Mauritania,2010,4.0
+946,478,Mauritania,2015,17.6
+947,478,Mauritania,2019,42.3
+948,478,Mauritania,2020,53.5
+949,478,Mauritania,2021,58.8
+950,480,Mauritius,2000,7.3
+951,480,Mauritius,2005,15.2
+952,480,Mauritius,2010,28.3
+953,480,Mauritius,2015,50.1
+954,480,Mauritius,2019,61.7
+955,480,Mauritius,2020,64.9
+956,480,Mauritius,2021,67.6
+957,175,Mayotte,2000,1.2
+958,484,Mexico,2000,5.1
+959,484,Mexico,2005,17.2
+960,484,Mexico,2010,31.1
+961,484,Mexico,2015,57.4
+962,484,Mexico,2019,69.6
+963,484,Mexico,2020,71.5
+964,484,Mexico,2021,75.6
+965,492,Monaco,2000,42.2
+966,492,Monaco,2005,55.5
+967,492,Monaco,2010,75.0
+968,492,Monaco,2015,93.4
+969,492,Monaco,2019,83.3
+970,492,Monaco,2020,84.7
+971,492,Monaco,2021,86.1
+972,496,Mongolia,2000,1.3
+973,496,Mongolia,2010,10.2
+974,496,Mongolia,2015,22.5
+975,496,Mongolia,2019,51.1
+976,496,Mongolia,2020,65.6
+977,496,Mongolia,2021,84.3
+978,499,Montenegro,2005,27.1
+979,499,Montenegro,2010,37.5
+980,499,Montenegro,2015,68.1
+981,499,Montenegro,2019,73.5
+982,499,Montenegro,2020,77.6
+983,499,Montenegro,2021,82.2
+984,500,Montserrat,2010,35.0
+985,504,Morocco,2000,0.7
+986,504,Morocco,2005,15.1
+987,504,Morocco,2010,52.0
+988,504,Morocco,2015,57.1
+989,504,Morocco,2019,84.1
+990,504,Morocco,2020,84.1
+991,504,Morocco,2021,88.1
+992,508,Mozambique,2000,0.1
+993,508,Mozambique,2005,0.9
+994,508,Mozambique,2010,4.2
+995,508,Mozambique,2015,6.5
+996,508,Mozambique,2019,14.6
+997,508,Mozambique,2020,16.3
+998,508,Mozambique,2021,17.4
+999,104,Myanmar,2005,0.1
+1000,104,Myanmar,2010,0.3
+1001,104,Myanmar,2015,10.9
+1002,104,Myanmar,2019,30.6
+1003,104,Myanmar,2020,42.0
+1004,104,Myanmar,2021,44.0
+1005,516,Namibia,2000,1.6
+1006,516,Namibia,2005,4.0
+1007,516,Namibia,2010,11.6
+1008,516,Namibia,2015,25.7
+1009,516,Namibia,2019,44.8
+1010,516,Namibia,2020,48.8
+1011,516,Namibia,2021,53.0
+1012,520,Nauru,2019,74.7
+1013,520,Nauru,2020,76.7
+1014,520,Nauru,2021,83.9
+1015,524,Nepal,2000,0.2
+1016,524,Nepal,2005,0.8
+1017,524,Nepal,2010,7.9
+1018,524,Nepal,2015,17.6
+1019,524,Nepal,2019,34.8
+1020,524,Nepal,2020,45.8
+1021,524,Nepal,2021,51.6
+1022,528,Netherlands,2000,44.0
+1023,528,Netherlands,2005,81.0
+1024,528,Netherlands,2010,90.7
+1025,528,Netherlands,2015,91.7
+1026,528,Netherlands,2019,93.3
+1027,528,Netherlands,2020,91.3
+1028,528,Netherlands,2021,92.1
+1029,540,New Caledonia,2000,13.9
+1030,540,New Caledonia,2005,32.4
+1031,540,New Caledonia,2010,42.0
+1032,540,New Caledonia,2015,74.0
+1033,554,New Zealand,2000,47.4
+1034,554,New Zealand,2005,62.7
+1035,554,New Zealand,2010,80.5
+1036,554,New Zealand,2015,85.2
+1037,554,New Zealand,2019,89.9
+1038,554,New Zealand,2020,92.9
+1039,554,New Zealand,2021,95.9
+1040,558,Nicaragua,2000,1.0
+1041,558,Nicaragua,2005,2.6
+1042,558,Nicaragua,2010,10.0
+1043,558,Nicaragua,2015,19.7
+1044,558,Nicaragua,2019,44.9
+1045,558,Nicaragua,2020,53.4
+1046,558,Nicaragua,2021,57.1
+1047,562,Niger,2000,0.0
+1048,562,Niger,2005,0.2
+1049,562,Niger,2010,0.8
+1050,562,Niger,2015,2.5
+1051,562,Niger,2019,16.6
+1052,562,Niger,2020,21.5
+1053,562,Niger,2021,22.4
+1054,566,Nigeria,2000,0.1
+1055,566,Nigeria,2005,3.5
+1056,566,Nigeria,2010,11.5
+1057,566,Nigeria,2015,24.5
+1058,566,Nigeria,2019,45.0
+1059,566,Nigeria,2020,51.5
+1060,566,Nigeria,2021,55.4
+1061,570,Niue,2000,26.5
+1062,570,Niue,2005,51.7
+1063,570,Niue,2010,77.0
+1064,807,Macedonia,2000,2.5
+1065,807,Macedonia,2005,26.5
+1066,807,Macedonia,2010,51.9
+1067,807,Macedonia,2015,70.4
+1068,807,Macedonia,2019,81.4
+1069,807,Macedonia,2020,81.4
+1070,807,Macedonia,2021,83.0
+1071,578,Norway,2000,52.0
+1072,578,Norway,2005,82.0
+1073,578,Norway,2010,93.4
+1074,578,Norway,2015,96.8
+1075,578,Norway,2019,98.0
+1076,578,Norway,2020,97.0
+1077,578,Norway,2021,99.0
+1078,512,Oman,2000,3.5
+1079,512,Oman,2005,6.7
+1080,512,Oman,2010,35.8
+1081,512,Oman,2015,73.5
+1082,512,Oman,2019,90.3
+1083,512,Oman,2020,95.2
+1084,512,Oman,2021,96.4
+1085,158,Other non-specified areas,2000,28.1
+1086,158,Other non-specified areas,2005,58.0
+1087,158,Other non-specified areas,2010,71.5
+1088,158,Other non-specified areas,2015,78.0
+1089,158,Other non-specified areas,2019,88.8
+1090,158,Other non-specified areas,2020,89.0
+1091,158,Other non-specified areas,2021,90.1
+1092,586,Pakistan,2005,6.3
+1093,586,Pakistan,2010,8.0
+1094,586,Pakistan,2015,11.0
+1095,586,Pakistan,2019,17.1
+1096,586,Pakistan,2020,18.9
+1097,586,Pakistan,2021,21.0
+1098,591,Panama,2000,6.6
+1099,591,Panama,2005,11.5
+1100,591,Panama,2010,40.1
+1101,591,Panama,2015,51.2
+1102,591,Panama,2019,63.6
+1103,591,Panama,2020,65.5
+1104,591,Panama,2021,67.5
+1105,598,Papua New Guinea,2000,0.8
+1106,598,Papua New Guinea,2005,1.7
+1107,598,Papua New Guinea,2010,1.3
+1108,598,Papua New Guinea,2015,7.9
+1109,598,Papua New Guinea,2019,20.0
+1110,598,Papua New Guinea,2020,27.7
+1111,598,Papua New Guinea,2021,32.1
+1112,600,Paraguay,2000,0.7
+1113,600,Paraguay,2005,7.9
+1114,600,Paraguay,2010,19.8
+1115,600,Paraguay,2015,49.7
+1116,600,Paraguay,2019,68.5
+1117,600,Paraguay,2020,74.0
+1118,600,Paraguay,2021,77.0
+1119,604,Peru,2000,3.1
+1120,604,Peru,2005,17.1
+1121,604,Peru,2010,34.8
+1122,604,Peru,2015,40.9
+1123,604,Peru,2019,60.0
+1124,604,Peru,2020,65.3
+1125,604,Peru,2021,71.1
+1126,608,Philippines,2000,2.0
+1127,608,Philippines,2005,5.4
+1128,608,Philippines,2010,25.0
+1129,608,Philippines,2015,36.9
+1130,608,Philippines,2019,43.0
+1131,608,Philippines,2020,47.1
+1132,608,Philippines,2021,52.7
+1133,616,Poland,2000,7.3
+1134,616,Poland,2005,38.8
+1135,616,Poland,2010,62.3
+1136,616,Poland,2015,68.0
+1137,616,Poland,2019,80.4
+1138,616,Poland,2020,83.2
+1139,616,Poland,2021,85.4
+1140,620,Portugal,2000,16.4
+1141,620,Portugal,2005,35.0
+1142,620,Portugal,2010,53.3
+1143,620,Portugal,2015,68.6
+1144,620,Portugal,2019,75.3
+1145,620,Portugal,2020,78.3
+1146,620,Portugal,2021,82.3
+1147,630,Puerto Rico,2000,10.5
+1148,630,Puerto Rico,2005,23.4
+1149,630,Puerto Rico,2010,45.3
+1150,630,Puerto Rico,2015,63.5
+1151,630,Puerto Rico,2019,77.7
+1152,634,Qatar,2000,4.9
+1153,634,Qatar,2005,24.7
+1154,634,Qatar,2010,69.0
+1155,634,Qatar,2015,92.9
+1156,634,Qatar,2019,99.7
+1157,634,Qatar,2020,99.7
+1158,634,Qatar,2021,100.0
+1159,410,South Korea,2000,44.7
+1160,410,South Korea,2005,73.5
+1161,410,South Korea,2010,83.7
+1162,410,South Korea,2015,89.9
+1163,410,South Korea,2019,96.2
+1164,410,South Korea,2020,96.5
+1165,410,South Korea,2021,97.6
+1166,498,Moldova,2000,1.3
+1167,498,Moldova,2005,14.6
+1168,498,Moldova,2010,29.7
+1169,498,Moldova,2015,43.1
+1170,498,Moldova,2019,57.8
+1171,498,Moldova,2020,59.2
+1172,498,Moldova,2021,61.3
+1173,638,Réunion,2000,13.8
+1174,638,Réunion,2005,28.1
+1175,642,Romania,2000,3.6
+1176,642,Romania,2005,21.5
+1177,642,Romania,2010,39.9
+1178,642,Romania,2015,55.8
+1179,642,Romania,2019,73.7
+1180,642,Romania,2020,78.5
+1181,642,Romania,2021,83.6
+1182,643,Russia,2000,2.0
+1183,643,Russia,2005,15.2
+1184,643,Russia,2010,49.0
+1185,643,Russia,2015,70.1
+1186,643,Russia,2019,82.6
+1187,643,Russia,2020,85.0
+1188,643,Russia,2021,88.2
+1189,646,Rwanda,2000,0.1
+1190,646,Rwanda,2005,0.6
+1191,646,Rwanda,2010,8.0
+1192,646,Rwanda,2015,12.5
+1193,646,Rwanda,2019,21.4
+1194,646,Rwanda,2020,23.8
+1195,646,Rwanda,2021,30.5
+1196,654,Saint Helena,2000,5.9
+1197,654,Saint Helena,2005,15.9
+1198,654,Saint Helena,2010,24.9
+1199,659,Saint Kitts and Nevis,2000,5.9
+1200,659,Saint Kitts and Nevis,2005,34.0
+1201,659,Saint Kitts and Nevis,2010,63.0
+1202,659,Saint Kitts and Nevis,2015,75.7
+1203,659,Saint Kitts and Nevis,2019,79.8
+1204,659,Saint Kitts and Nevis,2020,80.4
+1205,659,Saint Kitts and Nevis,2021,79.5
+1206,662,Saint Lucia,2000,5.1
+1207,662,Saint Lucia,2005,21.6
+1208,662,Saint Lucia,2010,32.5
+1209,662,Saint Lucia,2015,57.3
+1210,662,Saint Lucia,2019,77.0
+1211,662,Saint Lucia,2020,77.5
+1212,662,Saint Lucia,2021,78.1
+1213,670,Saint Vincent & Grenadines,2000,3.2
+1214,670,Saint Vincent & Grenadines,2005,9.2
+1215,670,Saint Vincent & Grenadines,2010,33.7
+1216,670,Saint Vincent & Grenadines,2015,49.4
+1217,670,Saint Vincent & Grenadines,2019,74.0
+1218,670,Saint Vincent & Grenadines,2020,80.4
+1219,670,Saint Vincent & Grenadines,2021,84.9
+1220,882,Samoa,2000,0.6
+1221,882,Samoa,2005,3.4
+1222,882,Samoa,2010,7.0
+1223,882,Samoa,2015,25.4
+1224,882,Samoa,2019,61.2
+1225,882,Samoa,2020,69.2
+1226,882,Samoa,2021,78.2
+1227,674,San Marino,2000,48.8
+1228,674,San Marino,2005,50.3
+1229,674,San Marino,2019,67.9
+1230,674,San Marino,2020,70.5
+1231,674,San Marino,2021,74.9
+1232,678,Sao Tome and Principe,2000,4.6
+1233,678,Sao Tome and Principe,2005,13.8
+1234,678,Sao Tome and Principe,2010,18.8
+1235,678,Sao Tome and Principe,2015,25.8
+1236,678,Sao Tome and Principe,2019,30.2
+1237,678,Sao Tome and Principe,2020,40.3
+1238,678,Sao Tome and Principe,2021,51.2
+1239,682,Saudi Arabia,2000,2.2
+1240,682,Saudi Arabia,2005,12.7
+1241,682,Saudi Arabia,2010,41.0
+1242,682,Saudi Arabia,2015,69.6
+1243,682,Saudi Arabia,2019,95.7
+1244,682,Saudi Arabia,2020,97.9
+1245,682,Saudi Arabia,2021,100.0
+1246,686,Senegal,2000,0.4
+1247,686,Senegal,2005,4.8
+1248,686,Senegal,2010,8.0
+1249,686,Senegal,2015,21.7
+1250,686,Senegal,2019,36.2
+1251,686,Senegal,2020,47.2
+1252,686,Senegal,2021,58.1
+1253,688,Serbia,2005,26.3
+1254,688,Serbia,2010,40.9
+1255,688,Serbia,2015,65.3
+1256,688,Serbia,2019,77.4
+1257,688,Serbia,2020,78.4
+1258,688,Serbia,2021,81.2
+1259,690,Seychelles,2000,7.4
+1260,690,Seychelles,2005,25.4
+1261,690,Seychelles,2010,41.0
+1262,690,Seychelles,2015,54.3
+1263,690,Seychelles,2019,74.8
+1264,690,Seychelles,2020,75.5
+1265,690,Seychelles,2021,81.6
+1266,694,Sierra Leone,2000,0.1
+1267,694,Sierra Leone,2005,0.2
+1268,694,Sierra Leone,2010,0.6
+1269,694,Sierra Leone,2015,6.3
+1270,694,Sierra Leone,2019,16.8
+1271,694,Sierra Leone,2020,18.0
+1272,702,Singapore,2000,36.0
+1273,702,Singapore,2005,61.0
+1274,702,Singapore,2010,71.0
+1275,702,Singapore,2015,83.2
+1276,702,Singapore,2019,88.9
+1277,702,Singapore,2020,92.0
+1278,702,Singapore,2021,91.1
+1279,703,Slovakia,2000,9.4
+1280,703,Slovakia,2005,55.2
+1281,703,Slovakia,2010,75.7
+1282,703,Slovakia,2015,77.6
+1283,703,Slovakia,2019,82.9
+1284,703,Slovakia,2020,89.9
+1285,703,Slovakia,2021,88.9
+1286,705,Slovenia,2000,15.1
+1287,705,Slovenia,2005,46.8
+1288,705,Slovenia,2010,70.0
+1289,705,Slovenia,2015,73.1
+1290,705,Slovenia,2019,83.1
+1291,705,Slovenia,2020,86.6
+1292,705,Slovenia,2021,89.0
+1293,90,Solomon Is.,2000,0.5
+1294,90,Solomon Is.,2005,0.8
+1295,90,Solomon Is.,2010,5.0
+1296,90,Solomon Is.,2015,10.0
+1297,90,Solomon Is.,2019,28.2
+1298,90,Solomon Is.,2020,35.9
+1299,90,Solomon Is.,2021,36.1
+1300,706,Somalia,2000,0.0
+1301,706,Somalia,2005,1.1
+1302,706,Somalia,2015,1.8
+1303,710,South Africa,2000,5.3
+1304,710,South Africa,2005,7.5
+1305,710,South Africa,2010,24.0
+1306,710,South Africa,2015,51.9
+1307,710,South Africa,2019,69.7
+1308,710,South Africa,2020,70.3
+1309,710,South Africa,2021,72.3
+1310,728,S. Sudan,2015,3.0
+1311,728,S. Sudan,2019,5.6
+1312,728,S. Sudan,2020,6.5
+1313,724,Spain,2000,13.6
+1314,724,Spain,2005,47.9
+1315,724,Spain,2010,65.8
+1316,724,Spain,2015,78.7
+1317,724,Spain,2019,90.7
+1318,724,Spain,2020,93.2
+1319,724,Spain,2021,93.9
+1320,144,Sri Lanka,2000,0.6
+1321,144,Sri Lanka,2005,1.8
+1322,144,Sri Lanka,2015,15.3
+1323,144,Sri Lanka,2019,50.7
+1324,144,Sri Lanka,2020,59.2
+1325,144,Sri Lanka,2021,66.7
+1326,275,Palestine,2000,1.1
+1327,275,Palestine,2005,16.0
+1328,275,Palestine,2010,37.4
+1329,275,Palestine,2015,56.7
+1330,275,Palestine,2019,70.6
+1331,729,Sudan,2000,0.0
+1332,729,Sudan,2005,1.3
+1333,729,Sudan,2019,25.9
+1334,729,Sudan,2020,28.4
+1335,740,Suriname,2000,2.5
+1336,740,Suriname,2005,6.4
+1337,740,Suriname,2010,31.6
+1338,740,Suriname,2015,42.8
+1339,740,Suriname,2019,56.8
+1340,740,Suriname,2020,62.1
+1341,740,Suriname,2021,65.9
+1342,752,Sweden,2000,45.7
+1343,752,Sweden,2005,84.8
+1344,752,Sweden,2010,90.0
+1345,752,Sweden,2015,90.6
+1346,752,Sweden,2019,94.5
+1347,752,Sweden,2020,94.5
+1348,752,Sweden,2021,88.3
+1349,756,Switzerland,2000,47.1
+1350,756,Switzerland,2005,70.1
+1351,756,Switzerland,2010,83.9
+1352,756,Switzerland,2015,87.5
+1353,756,Switzerland,2019,93.1
+1354,756,Switzerland,2020,94.4
+1355,756,Switzerland,2021,95.6
+1356,760,Syria,2000,0.2
+1357,760,Syria,2005,5.6
+1358,760,Syria,2010,20.7
+1359,760,Syria,2015,30.0
+1360,760,Syria,2019,34.7
+1361,760,Syria,2020,35.8
+1362,762,Tajikistan,2000,0.0
+1363,762,Tajikistan,2005,0.3
+1364,762,Tajikistan,2010,11.6
+1365,762,Tajikistan,2015,19.0
+1366,764,Thailand,2000,3.7
+1367,764,Thailand,2005,15.0
+1368,764,Thailand,2010,22.4
+1369,764,Thailand,2015,39.3
+1370,764,Thailand,2019,66.7
+1371,764,Thailand,2020,77.8
+1372,764,Thailand,2021,85.3
+1373,626,Timor-Leste,2005,0.1
+1374,626,Timor-Leste,2010,3.0
+1375,626,Timor-Leste,2015,18.6
+1376,626,Timor-Leste,2019,28.0
+1377,626,Timor-Leste,2020,34.1
+1378,626,Timor-Leste,2021,39.5
+1379,768,Togo,2000,0.8
+1380,768,Togo,2005,1.8
+1381,768,Togo,2010,3.0
+1382,768,Togo,2015,7.1
+1383,768,Togo,2019,20.7
+1384,768,Togo,2020,29.1
+1385,768,Togo,2021,35.0
+1386,776,Tonga,2000,2.4
+1387,776,Tonga,2005,4.9
+1388,776,Tonga,2010,16.0
+1389,776,Tonga,2015,38.7
+1390,776,Tonga,2019,61.8
+1391,776,Tonga,2020,66.6
+1392,776,Tonga,2021,71.6
+1393,780,Trinidad and Tobago,2000,7.7
+1394,780,Trinidad and Tobago,2005,29.0
+1395,780,Trinidad and Tobago,2010,48.5
+1396,780,Trinidad and Tobago,2015,65.1
+1397,780,Trinidad and Tobago,2019,79.0
+1398,780,Trinidad and Tobago,2020,78.7
+1399,780,Trinidad and Tobago,2021,79.0
+1400,788,Tunisia,2000,2.8
+1401,788,Tunisia,2005,9.7
+1402,788,Tunisia,2010,36.8
+1403,788,Tunisia,2015,46.5
+1404,788,Tunisia,2019,66.7
+1405,788,Tunisia,2020,72.8
+1406,788,Tunisia,2021,79.0
+1407,792,Turkey,2000,3.8
+1408,792,Turkey,2005,15.5
+1409,792,Turkey,2010,39.8
+1410,792,Turkey,2015,53.7
+1411,792,Turkey,2019,74.0
+1412,792,Turkey,2020,77.7
+1413,792,Turkey,2021,81.4
+1414,795,Turkmenistan,2000,0.1
+1415,795,Turkmenistan,2005,1.0
+1416,795,Turkmenistan,2010,3.0
+1417,795,Turkmenistan,2015,15.0
+1418,798,Tuvalu,2000,5.2
+1419,798,Tuvalu,2005,8.3
+1420,798,Tuvalu,2010,14.6
+1421,798,Tuvalu,2015,27.3
+1422,798,Tuvalu,2021,71.6
+1423,800,Uganda,2000,0.2
+1424,800,Uganda,2005,1.7
+1425,800,Uganda,2010,4.3
+1426,800,Uganda,2015,5.8
+1427,800,Uganda,2019,6.0
+1428,800,Uganda,2020,6.1
+1429,800,Uganda,2021,10.3
+1430,804,Ukraine,2000,0.7
+1431,804,Ukraine,2005,3.7
+1432,804,Ukraine,2010,23.3
+1433,804,Ukraine,2015,48.9
+1434,804,Ukraine,2019,70.1
+1435,804,Ukraine,2020,75.0
+1436,804,Ukraine,2021,79.2
+1437,784,United Arab Emirates,2000,23.6
+1438,784,United Arab Emirates,2005,40.0
+1439,784,United Arab Emirates,2010,68.0
+1440,784,United Arab Emirates,2015,90.5
+1441,784,United Arab Emirates,2019,99.2
+1442,784,United Arab Emirates,2020,100.0
+1443,784,United Arab Emirates,2021,100.0
+1444,826,United Kingdom,2000,26.8
+1445,826,United Kingdom,2005,70.0
+1446,826,United Kingdom,2010,85.0
+1447,826,United Kingdom,2015,92.0
+1448,826,United Kingdom,2019,92.5
+1449,826,United Kingdom,2020,94.8
+1450,826,United Kingdom,2021,96.7
+1451,834,Tanzania,2000,0.1
+1452,834,Tanzania,2005,1.1
+1453,834,Tanzania,2010,2.9
+1454,834,Tanzania,2015,10.0
+1455,834,Tanzania,2019,18.3
+1456,834,Tanzania,2020,23.4
+1457,834,Tanzania,2021,31.6
+1458,840,United States of America,2000,43.1
+1459,840,United States of America,2005,68.0
+1460,840,United States of America,2010,71.7
+1461,840,United States of America,2015,74.6
+1462,840,United States of America,2019,89.4
+1463,840,United States of America,2020,90.6
+1464,840,United States of America,2021,91.8
+1465,850,United States Virgin Islands,2000,13.8
+1466,850,United States Virgin Islands,2005,27.3
+1467,850,United States Virgin Islands,2010,31.2
+1468,850,United States Virgin Islands,2015,54.8
+1469,858,Uruguay,2000,10.5
+1470,858,Uruguay,2005,20.1
+1471,858,Uruguay,2010,46.4
+1472,858,Uruguay,2015,64.6
+1473,858,Uruguay,2019,83.4
+1474,858,Uruguay,2020,86.3
+1475,858,Uruguay,2021,90.1
+1476,860,Uzbekistan,2000,0.5
+1477,860,Uzbekistan,2005,3.3
+1478,860,Uzbekistan,2010,15.9
+1479,860,Uzbekistan,2015,42.8
+1480,860,Uzbekistan,2019,70.4
+1481,860,Uzbekistan,2020,71.1
+1482,860,Uzbekistan,2021,76.6
+1483,548,Vanuatu,2000,2.1
+1484,548,Vanuatu,2005,5.1
+1485,548,Vanuatu,2010,8.0
+1486,548,Vanuatu,2015,22.4
+1487,548,Vanuatu,2019,50.7
+1488,548,Vanuatu,2020,53.3
+1489,548,Vanuatu,2021,66.3
+1490,862,Venezuela,2000,3.4
+1491,862,Venezuela,2005,12.6
+1492,862,Venezuela,2010,37.4
+1493,862,Venezuela,2015,58.0
+1494,704,Vietnam,2000,0.3
+1495,704,Vietnam,2005,12.7
+1496,704,Vietnam,2010,30.7
+1497,704,Vietnam,2015,45.0
+1498,704,Vietnam,2019,68.7
+1499,704,Vietnam,2020,70.3
+1500,704,Vietnam,2021,74.2
+1501,876,Wallis and Futuna Islands,2000,4.8
+1502,876,Wallis and Futuna Islands,2005,6.7
+1503,876,Wallis and Futuna Islands,2010,8.2
+1504,887,Yemen,2000,0.1
+1505,887,Yemen,2005,1.0
+1506,887,Yemen,2010,12.4
+1507,887,Yemen,2015,24.1
+1508,894,Zambia,2000,0.2
+1509,894,Zambia,2005,1.3
+1510,894,Zambia,2010,3.0
+1511,894,Zambia,2015,8.8
+1512,894,Zambia,2019,16.8
+1513,894,Zambia,2020,18.1
+1514,894,Zambia,2021,21.2
+1515,716,Zimbabwe,2000,0.4
+1516,716,Zimbabwe,2005,2.4
+1517,716,Zimbabwe,2010,6.4
+1518,716,Zimbabwe,2015,22.7
+1519,716,Zimbabwe,2019,26.6
+1520,716,Zimbabwe,2020,29.3
+1521,716,Zimbabwe,2021,34.8
+1522,199,LDC§,2000,0.4
+1523,199,LDC§,2005,0.7
+1524,199,LDC§,2010,3.3
+1525,199,LDC§,2015,10.7
+1526,199,LDC§,2019,23.5
+1527,199,LDC§,2020,27.6
+1528,199,LDC§,2021,31.2
