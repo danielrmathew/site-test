@@ -1,66 +1,13 @@
-// // Set up the projection
-// const width = 800;
-// const height = 600;
-
-// const projection = d3.geoOrthographic()
-//     .scale(250)
-//     .translate([width / 2, height / 2])
-//     .clipAngle(90);
-
-// const path = d3.geoPath().projection(projection);
-
-// // Create an SVG element
-// const svg = d3.select("#globe-container")
-//     .append("svg")
-//     .attr("width", width)
-//     .attr("height", height);
-
-// // Load the world map data
-// d3.json("countries-110m.json").then((world) => {
-//     // Draw the world map
-//     svg.append("path")
-//         .datum(topojson.feature(world, world.objects.countries))
-//         .attr("class", "land")
-//         .attr("d", path);
-
-
-//     // Enable drag and rotate behavior
-//     const drag = d3.drag()
-//         .subject(function () {
-//             const r = projection.rotate();
-//             return { x: r[0] / 2, y: -r[1] / 2 };
-//         })
-//         .on("drag", function (event) {
-//             const rotate = projection.rotate();
-//             projection.rotate([rotate[0] + event.dx * 0.5, rotate[1] - event.dy * 0.5]);
-//             svg.selectAll("path.land")
-//                 .attr("d", path);
-//         });
-    
-//     // Enable zoom behavior
-//     const zoom = d3.zoom()
-//         .scaleExtent([1, 10]) // Set the minimum and maximum zoom levels
-//         .on("zoom", function (event) {
-//             svg.attr("transform", event.transform);
-//         });
-
-//     svg.call(drag);
-//     svg.call(zoom);
-
-    
-// });
-
-
 // Set up the projection
-const width = 2000;
-const height = 1000;
+const width = 800;
+const height = 600;
 let start;
 
 let rotateEnabled = true;
 
 const projection = d3.geoOrthographic()
     .scale(250)
-    .translate([width /2, height / 2.5])
+    .translate([width /2, height / 2])
     .clipAngle(90);
 
 const path = d3.geoPath().projection(projection);
@@ -91,12 +38,31 @@ const drag = d3.drag()
     start = Date.now();
     });
 
+// initial zoom state to reset to
+const thresholdScale = 0.75; 
+const initialTranslate = [width /2, height / 2];
+const initialZoomState = d3.zoomIdentity.translate(initialTranslate[0], initialTranslate[1]).scale(1);
+
+function calculateZoomTranslation(transform) {
+    const scale = transform.k;
+    const x = width / 2 - (width / 2) * scale;
+    const y = height / 2 - (height / 2) * scale;
+    return `translate(${x},${y}) scale(${scale})`;
+}
+
 // Enable zoom behavior on the globe group
 const zoom = d3.zoom()
-    .scaleExtent([1, 10]) // Set the minimum and maximum zoom levels
+    .scaleExtent([0.75, 10]) // Set the minimum and maximum zoom levels
     .on("zoom", function (event) {
-        globeGroup.attr("transform", event.transform);
+        globeGroup.attr("transform", calculateZoomTranslation(event.transform));
+
+        console.log("Zoom Scale:", event.transform.k);
+
+        // if (event.transform.k < thresholdScale) {
+        //     resetZoom();
+        // }
     });
+    
 
 function rotateGlobe() {
     if (rotateEnabled == false){return;}
@@ -107,6 +73,7 @@ function rotateGlobe() {
         .attr("d", path);
 }
 
+
 // Load the world map data
 d3.json("countries-110m.json").then((world) => {
     // Draw the world map in the globe group
@@ -115,7 +82,7 @@ d3.json("countries-110m.json").then((world) => {
         .datum({ type: "Sphere" })
         .attr("class", "ocean")
         .attr("d", path);
-        
+
     globeGroup.append("path")
         .datum(topojson.feature(world, world.objects.countries))
         .attr("class", "land")
@@ -125,6 +92,7 @@ d3.json("countries-110m.json").then((world) => {
 
     svg.call(drag);
     svg.call(zoom);
+    zoom.scaleTo(svg, 1)
 
     d3.timer(rotateGlobe);
 
@@ -132,6 +100,8 @@ d3.json("countries-110m.json").then((world) => {
         if (rotateEnabled == false){rotateEnabled = true;}
         else {rotateEnabled = false;}
     });
+
+    
 });
 
 
