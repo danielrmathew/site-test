@@ -66,7 +66,7 @@ function rotateGlobe() {
 
     const rotate = projection.rotate();
     projection.rotate([rotate[0] + 0.1, rotate[1]]);
-    globeGroup.selectAll("path.land")
+    globeGroup.selectAll("path.country")
         .attr("d", path);
 }
 
