@@ -2,7 +2,12 @@ body{
     height: 100vh;
     margin: 0; 
     padding: 0;
+    background: linear-gradient(to bottom, #3498db, #2c3e50);
+    font-family: "Titillium Web", sans-serif;
+    color: #fff;
    }
+
+
 
 svg {
     /*center the svg*/
