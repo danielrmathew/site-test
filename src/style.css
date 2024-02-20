@@ -60,7 +60,7 @@ h3 {
 
 .ocean {
     fill: #132A50; 
-    opacity: 5%;
+    opacity: 20%;
 }
 
 #yearSelect{
@@ -104,3 +104,49 @@ h3 {
 .button:hover {
     background-color: #77c97a;
   }
+
+
+#legend-container {
+    position: fixed;
+    top: 10%;
+    right: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: rgba(21, 227, 227, 0.8); /* Background color with some transparency */
+    padding: 10px; 
+    border: 1px solid #000000; 
+    border-radius: 5px; 
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.legend-color {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.legend-color-scale {
+    width: 155px;
+    height: 20px; 
+    background: linear-gradient(to right, white, darkgreen);
+    margin-right: px;
+}
+
+.legend-text1{
+    padding: 0 0px;
+}
+.legend-text2{
+    padding: 0 12px;
+}
+.legend-text3{
+    padding: 0 px;
+}
+.legend-text4{
+    padding: 0 17px;
+}

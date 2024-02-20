@@ -83,7 +83,8 @@ d3.json("countries-110m.json").then((world) => {
     globeGroup.append("path")
         .datum({ type: "Sphere" })
         .attr("class", "ocean")
-        .attr("d", path);
+        .attr("d", path)
+        .style('fill', '#132A50');
 
     // Load the internet data CSV file
     d3.csv("/static/Internet_data_mod.csv").then(internetData => {
