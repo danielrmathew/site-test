@@ -13,19 +13,24 @@
 </head>
 <body>
     <center>
-        <h1>Yearly Global Internet Usage</h1>
-        <select id="yearSelect">
-            <option value="2000">2000</option>
-            <option value="2005">2005</option>
-            <option value="2010">2010</option>
-            <option value="2015">2015</option>
-            <option value="2019">2019</option>
-            <option value="2020">2020</option>
-            <option value="2021">2021</option>
-        </select>
+        <h1>Global Internet Usage By Year</h1>
     </center>
     <div id="globe-container"></div>
     <script src="https://d3js.org/topojson.v3.min.js"></script>
     <script src="main.js"></script>
+    <div id="yearSelect">
+        <button class="button" id = '2000'>2000</button>
+        <button class="button" id = '2005'>2005</button>
+        <button class="button" id = '2010'>2010</button>
+        <button class="button" id = '2015'>2015</button>
+        <button class="button" id = '2019'>2019</button>
+        <button class="button" id = '2020'>2020</button>
+        <button class="button" id = '2021'>2021</button>
+    </div>
+
+    <div id="Avg">
+        <h2>Avg % Connected</h2>
+        <h3 id="curr_avg"></h3>
+    </div>
 </body>
 </html>

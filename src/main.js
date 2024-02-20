@@ -1,16 +1,21 @@
-
 // Set up the projection
 const width = 800;
 const height = 600;
 let start;
 
-let rotateEnabled = true; // changed to false for now to figure out tooltip
+let rotateEnabled = true; 
 
+// Define the color scale for the internet usage 
+const colorScale = d3.scaleSequential()
+    .domain([0, 100]) // Input domain
+    .interpolator(d3.interpolateBuGn);
 
+// add stroke to globe
 const projection = d3.geoOrthographic()
     .scale(250)
     .translate([width /2, height / 2])
     .clipAngle(90);
+    
 
 const path = d3.geoPath().projection(projection);
 
@@ -22,6 +27,8 @@ const svg = d3.select("#globe-container")
 
 // Create a group for the globe
 const globeGroup = svg.append("g");
+
+
 
 // Enable drag and rotate behavior
 const drag = d3.drag()
@@ -70,9 +77,6 @@ function rotateGlobe() {
         .attr("d", path);
 }
 
-const colorScale = d3.scaleOrdinal(d3.schemeCategory10);
-// console.log(colorScale);
-
 // Load the world map data
 d3.json("countries-110m.json").then((world) => {
     // Draw the world map in the globe group
@@ -80,13 +84,6 @@ d3.json("countries-110m.json").then((world) => {
         .datum({ type: "Sphere" })
         .attr("class", "ocean")
         .attr("d", path);
-
-    // globeGroup.append("path")
-    //     .datum(topojson.feature(world, world.objects.countries))
-    //     .attr("class", "land")
-    //     .attr("d", path);
-
-
 
     // Load the internet data CSV file
     d3.csv("/static/Internet_data_mod.csv").then(internetData => {
@@ -107,52 +104,123 @@ d3.json("countries-110m.json").then((world) => {
         });
         // console.log(internetDataMap);
         let selectedYear = 2000;
-        const yearSelect = document.getElementById("yearSelect");
 
-        function updateInternetValue(selectedYear) {
-            // Write code here to update the internet value based on the selected year
-            console.log("Selected Year:", selectedYear);
-            // You can retrieve the internet value for the selected year from your data source
+        // making the initial year button active
+        const initial_year_button = document.getElementById("2000");
+        initial_year_button.classList.add("active_button");
+
+        // Displaying initial average
+        document.getElementById("curr_avg").innerHTML = "~" + get_average_usage().toFixed(2) + "%";
+
+        function updateGlobeColors(currYear) {
+            globeGroup.selectAll(".country")
+            .transition().duration(1000)
+            .style("fill", function (d) {
+                let countryName = d.properties.name;
+    
+                if (internetDataMap.has(countryName)){
+                let internetUsage;
+                    if (currYear in internetDataMap.get(countryName)) {
+                        internetUsage = internetDataMap.get(countryName)[currYear];
+                        console.log(internetUsage);
+                        return colorScale(internetUsage);
+                    } else {
+                        return "grey";
+                    }
+                }
+                else {
+                    return "black";
+                }
+            })
         }
-        yearSelect.addEventListener("change", function() {
-            selectedYear = parseInt(yearSelect.value);
-            updateInternetValue(selectedYear);
+
+        // Function to handle updating year
+        function updateYear(year) {
+            selectedYear = year;
+            updateGlobeColors(selectedYear);
+            // console.log("Selected year:", year);
+            document.getElementById("curr_avg").innerHTML = "~" + get_average_usage().toFixed(2) + "%";
+        }
+
+        const buttons = document.querySelectorAll('.button');
+
+        buttons.forEach(button => {
+            button.addEventListener('click', function() {
+                buttons.forEach(btn => btn.classList.remove('active_button'));
+                this.classList.toggle('active_button');
+                updateYear(this.id);
+            });
         });
 
+        function get_average_usage() {
+            sum = 0
+
+            for (let [key, value] of internetDataMap) {
+                if (selectedYear in value) {
+                    sum += value[selectedYear];
+                }
+            }
+            return sum / internetDataMap.size;
+        }
 
         // Define tooltip
         const tooltip = d3.select("body").append("div")
             .attr("class", "tooltip")
             .style("opacity", 1);
 
-        // Draw the world map in the globe group
         globeGroup.selectAll(".country")
             .data(topojson.feature(world, world.objects.countries).features)
             .enter().append("path")
             .attr("class", "country")
             .attr("d", path)
             .on("mouseover", function (event, d) {
+                d3.select(this).style("opacity", 0.5);
+                
                 let countryName = d.properties.name;
-                // console.log(countryName);
                 let internetUsage;
-                if (selectedYear in internetDataMap.get(countryName)) {
-                    internetUsage = internetDataMap.get(countryName)[selectedYear];
-                    tooltip
-                    .html(`<strong>Country:</strong> ${countryName}<br><strong>Internet Usage:</strong> ${internetUsage}%`);
-                } else {
-                    internetUsage = "No data for this year!"
+
+                if (internetDataMap.has(countryName)){
+                    if (selectedYear in internetDataMap.get(countryName)) {
+                        internetUsage = internetDataMap.get(countryName)[selectedYear];
+                        tooltip
+                        .html(`<strong>Country:</strong> ${countryName}<br><strong>Internet Usage:</strong> ${internetUsage}%`).style("font-family", "Titillium Web, sans-serif");
+                    } else {
+                        internetUsage = "No data for this year!"
+                        tooltip
+                        .html(`<strong>Country:</strong> ${countryName}<br><strong>Internet Usage:</strong> ${internetUsage}`);
+                    }
+                }
+                else {
+                    internetUsage = "No data for this country!"
                     tooltip
                     .html(`<strong>Country:</strong> ${countryName}<br><strong>Internet Usage:</strong> ${internetUsage}`);
                 }
+
                 tooltip.style("opacity", 1)
                 
+            })  
+            .style("fill", function (d) {
+                let countryName = d.properties.name;
+    
+                if (internetDataMap.has(countryName)){
+                let internetUsage;
+                    if (selectedYear in internetDataMap.get(countryName)) {
+                        internetUsage = internetDataMap.get(countryName)[selectedYear];
+                        // console.log(internetUsage);
+                        return colorScale(internetUsage);
+                    } else {
+                        return "grey";
+                    }
+                }
+                else {
+                    return "black";
+                }
             })
-            .on("mouseout", function () {
+            .on("mouseout", function (event, d) {
+                d3.select(this).style("opacity", 1);
                 tooltip.style("opacity", 0);
-            });
-
-        
-    });
+                })
+         });
 
 
     svg.call(drag);
@@ -165,7 +233,6 @@ d3.json("countries-110m.json").then((world) => {
         if (rotateEnabled == false){rotateEnabled = true;}
         else {rotateEnabled = false;}
     });
-
     
 });
 

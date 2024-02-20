@@ -16,10 +16,6 @@ svg {
     height: 60%;
 }
 
-#yearSlider {
-    height: 100%
-}
-
 .tooltip {
     text-align: center;
     margin: auto;
@@ -33,13 +29,78 @@ h1 {
     margin-top: 50px;
 }
 
+h2 {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+    margin-top: 50px;
+
+}
+
+h3 {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5em;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#Avg {
+    position: absolute;
+    top: 35%;
+    right: 10%;
+}
+
 .country {
-    fill: #036301; 
     stroke: #041c15; 
+    stroke-width: 0.5;
 }
 
 .ocean {
-    fill: hsla(219, 79%, 47%, 0.741); 
-    opacity: 100%;
-    stroke: #15cbcb; 
+    fill: #132A50; 
+    opacity: 5%;
 }
+
+#yearSelect{
+    bottom: 100px;
+    position: absolute;
+    display: flex;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    
+}
+
+.button {
+    background-color: #ffffff; 
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+  }
+
+.active_button {
+    background-color: #77c97a;
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+  }
+
+  #yearSelect .button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+  }
+  
+.button:hover {
+    background-color: #77c97a;
+  }
