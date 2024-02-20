@@ -112,12 +112,13 @@ h3 {
 
 
 #legend-container {
-    position: fixed;
-    top: 10%;
-    right: 10%;
+    position: absolute;
+    top: 40%;
+    left: 8%;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
     background-color: rgba(21, 227, 227, 0.8); /* Background color with some transparency */
     padding: 10px; 
     border: 1px solid #000000; 
