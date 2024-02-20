@@ -139,10 +139,13 @@ h3 {
 }
 
 .legend-text1{
+    position: inherit;
     padding: 0 0px;
 }
 .legend-text2{
-    padding: 0 12px;
+    position: inherit;
+    text-align:start;
+    padding-right: 22px;
 }
 .legend-text3{
     padding: 0 px;
